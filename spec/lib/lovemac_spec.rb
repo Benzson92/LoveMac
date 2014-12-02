@@ -1,7 +1,7 @@
 require "spec_helper"
 require "lovemac"   # name of the class we have just created
  
-  describe "#find_largest" do
+  describe "#lovemac" do
 
     it "Multiple of 3" do
        ans = lovemac(3)
