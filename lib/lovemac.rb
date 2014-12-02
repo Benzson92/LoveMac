@@ -1,11 +1,11 @@
 def lovemac(number)
 	(1..50).each do |number|
 		if (number % 3) == 0
-			puts Love
+			puts "Love"
 		elsif (number % 5) == 0
-			puts Mac
+			puts "Mac"
 		elsif ((number % 3) == 0) && ((number % 5) == 0)
-			puts HateWindows
+			puts "HateWindows"
 		else
 			puts lovemac(number)						
 		end
