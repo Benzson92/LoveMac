@@ -23,10 +23,11 @@ require "lovemac"   # name of the class we have just created
        ans = lovemac(15)
        expect(ans).to eq("HateWindows")
     end 
-     it "Multiple of 3 and 5" do
+    it "Multiple of 3 and 5" do
        ans = lovemac(30)
        expect(ans).to eq("HateWindows")
-     it "other numbers" do
+    end  
+    it "other numbers" do
        ans = lovemac(number)
        expect(ans).to eq(number)
     end               
