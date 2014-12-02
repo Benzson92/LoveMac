@@ -9,6 +9,5 @@ def lovemac(number)
 		else
 			puts lovemac(number)						
 		end
-
-		
+				
 end
