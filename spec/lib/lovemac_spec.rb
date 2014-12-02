@@ -30,5 +30,5 @@ require "lovemac"   # name of the class we have just created
     it "other numbers" do
        ans = lovemac(number)
        expect(ans).to eq(number)
-    end               
+    end                   
   end
